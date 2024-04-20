@@ -1,0 +1,150 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+main{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+/*clases de font*/
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.open-sans-regular {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/*Caracteristicas del usario*/
+#user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-top: #e8ebe4 solid 1px;
+  border-bottom: #e8ebe4 solid 1px;
+}
+.img_user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 1rem;
+
+}
+/*Caja con imagen, nombre usuario y status*/
+.img_user_stats{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+/*Caja de usuario y status*/
+.name_status {
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+
+}
+.username{
+  font-size: 14px;
+  color: #1b1f21;
+  font-weight: bold;
+  margin: 0;
+
+}
+.status {
+  font-size: 10px;
+  color: gray;
+  margin-top: 0;
+}
+/*Classes y atributos de iconos*/
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: gray;
+}
+i {
+  padding: 0.5rem;
+}
+
+/*Caja de nuevo chat*/
+.new_chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a491d2;
+  color: white;
+  margin: 2rem;
+  padding: 1em;
+  font-size: 14px;
+  text-align: center;
+  border: #e8ebe4 solid 1px;
+}
+
+/*ID de sector de contactos izquierdo, incluido user*/
+#contactos {
+  background-color: white;
+  border: #e8ebe4 solid 1px;
+  width: 25%;
+  float: left;
+  flex-wrap: wrap;
+}
+
+/*Clase de solo contactos, abajo de new chat*/
+.contacts {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-top: #e8ebe4 solid 1px;
+  padding: 0.5rem 2.5rem;
+}
+.img_contact {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.contact_name {
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+.last_message {
+  font-size: 14px;
+  margin: 0 auto;
+}
+/*ID de seccion derecha donde esta logo y texto*/
+#principal {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  float: left;
+}
+.hand_logo {
+  border-radius: 5%;
+  width: 300px;
+}
+
+.titulo {
+  font-size: 45px;
+  margin: 0;
+  text-align: center;
+}
+.subtitulo {
+  font-size: 16px;
+  text-align: center;
+}
